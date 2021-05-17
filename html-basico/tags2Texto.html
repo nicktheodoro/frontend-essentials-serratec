@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Tags de texto</title>
+  </head>
+
+  <body>
+    <h3>Tag P</h3>
+    <p>Principal tag de texto, compõe um parágrafo.</p>
+
+    <h3>Tag Span</h3>
+    <span>
+      Apesar de ter uma funcionalidade e características parecidas com os
+      parágrafos, costumam ser utilizadas apenas para pequenas informações, como
+      legendas de um formulário, legendas de uma imagem, etc. Também pode ser
+      utilizada para formar um container.
+    </span>
+
+    <h3>Tag Pre</h3>
+    <pre>
+      Tag utilizada para representar texto pré-formatado. Muito utilizada para 
+      inserir códigos.
+
+      Exemplo:
+
+      package org.serratec.exercicioFuncPublico;
+
+      public class FuncionarioPublico {
+        private String nome;
+        private double salario;
+        private final int anoConcurso;
+
+        public FuncionarioPublico(String nome, double salario, int anoConcurso) {
+          super();
+          this.nome = nome;
+          this.salario = salario;
+          this.anoConcurso = anoConcurso;
+        }
+
+        @Override
+        public String toString() {
+          return "FuncionarioPublico [nome=" + nome + ", salario=" + salario + ",
+          anoConcurso=" + anoConcurso + "]";
+        }
+
+      }
+    </pre>
+
+    <h3>Tag B</h3>
+    <b>Em negrito</b>
+
+    <h3>Tag i</h3>
+    <i>Em itálico</i>
+    
+    <h3>Tag Hr</h3>
+    <p>Cria uma linha na horizontal</p>
+    <hr/>
+  </body>
+</html>
