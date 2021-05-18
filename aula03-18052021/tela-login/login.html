@@ -1,40 +1,30 @@
-<!DOCTYPE html>
-<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login | Serratec</title>
-    <!-- <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet"> -->
-    <link rel="stylesheet" href="./css/base.css">
-    <link rel="stylesheet" href="./css/login.css">
-
-</head>
-<body>
-
-    <div class="box-login">
-
-        <div class="logo">
-            <h2>Serratec</h2>
+    <title>Login</title>
+    <link rel="stylesheet" href="./styles/global.css">
+    <link rel="stylesheet" href="./styles/login.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700&display=swap" rel="stylesheet"> 
+  </head>
+  <body>
+    <div class="form">
+      <div class="logo">
+        <h2>Serratec</h1>
         </div>
-        
-        <div class="grupo">
-            <label for="email">E-mail</label> <br>
-            <input id="email" type="text" placeholder="Exemplo@exemplo.com">
-        </div>
-
-        <div class="grupo">
-            <label for="senha">Senha</label> <br>
-            <input id="senha" type="password" placeholder="Digite sua senha">
-        </div>
-
-        <div class="grupo grupo-final">
-           <button id="btn-entrar" onclick="logar()" >Entrar</button>
-           <a href="recuperacao-senha.html">Esqueci minha senha</a>
-        </div>
-
+        <form action="" id="form">
+          <label for="input-email">E-mail</label>
+          <input type="email" id="input-email" placeholder="Digite seu e-mail">
+          <label for="input-senha">Senha</label>
+          <input type="password" id="input-senha" placeholder="Digite sua senha" >
+          <button id="btn-entrar" onclick="logar()">Entrar</button>
+          <a href="recuperar-senha.html">Esqueci minha senha</a>
+        </form>
+          
+      </div>
     </div>
-    
+
     <script src="./js/login.js"></script>
-</body>
+  </body>
 </html>
