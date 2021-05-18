@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Serratec</title>
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet"> -->
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/login.css">
+
+</head>
+<body>
+
+    <div class="box-login">
+
+        <div class="logo">
+            <h2>Serratec</h2>
+        </div>
+        
+        <div class="grupo">
+            <label for="email">E-mail</label> <br>
+            <input id="email" type="text" placeholder="Exemplo@exemplo.com">
+        </div>
+
+        <div class="grupo">
+            <label for="senha">Senha</label> <br>
+            <input id="senha" type="password" placeholder="Digite sua senha">
+        </div>
+
+        <div class="grupo grupo-final">
+           <button id="btn-entrar" onclick="logar()" >Entrar</button>
+           <a href="recuperacao-senha.html">Esqueci minha senha</a>
+        </div>
+
+    </div>
+    
+    <script src="./js/login.js"></script>
+</body>
+</html>
