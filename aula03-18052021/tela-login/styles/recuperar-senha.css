@@ -1,17 +1,14 @@
-body {
-  height: calc(100vh - 70px);
-  background: var(--gray-50);
-}
-
 div.container {
   background: #fff;
   max-width: 350px;
-  margin: 10% auto;
+  margin: 0 auto;
+  margin-top: 5%;
   box-shadow: 0px 1px 7px 1px #000;
   padding: 20px;
 }
 
 div.container h2 {
+  display: block;
   color: var(--purple-800);
   text-align: center;
   font-size: 1.4rem;
@@ -48,6 +45,7 @@ div.container input:focus {
 }
 
 div.container button {
+  display: block;
   padding: 10px;
   margin: 10px 0;
   margin-top: 1rem;
@@ -77,7 +75,7 @@ div.container span:last-of-type {
   display: block;
   color: var(--gray-800);
   text-align: center;
-  margin: 2rem 0;
+  margin: 1rem 0;
 }
 
 div.container span:last-of-type::after {
@@ -86,7 +84,7 @@ div.container span:last-of-type::after {
 }
 
 div.container .links {
-  margin-top: 2rem;
+  margin-top: 1rem;
   display: flex;
   justify-content: space-between;
 
@@ -96,5 +94,5 @@ div.container .links {
 div.container .links a {
   color: var(--gray-800);
   font-weight: 300;
-  font-size: 0.9rem;
+  font-size: small;
 }

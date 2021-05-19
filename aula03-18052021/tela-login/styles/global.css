@@ -8,6 +8,11 @@
   outline: none;
 }
 
+html {
+  height: calc(100vh - 5%);
+  background: var(--gray-50);
+}
+
 :root {
   margin: 0;
   padding: 0;
