@@ -1,0 +1,52 @@
+/* Reset */
+* {margin:0; padding:0; box-sizing:border-box;}
+
+/* Definição de fonte */
+h1, h2, h3, h4, h5, h6, p, li, table, label, input, textarea {font-family:'Roboto Slab', serif;}
+
+/* Cabeçalho */
+.cabecalho .container {display:flex; justify-content:space-between;}
+.container {max-width:900px; margin:0 auto; padding:15px;}
+
+/* Menu */
+.menu {margin-top:10px;}
+.menu ul li {list-style:none; display:inline-block;}
+.menu ul li a {color:#1a1a1a; margin:0 10px; text-decoration:none; font-size:17px;}
+.menu ul li a:hover {color:#ff8000;}
+
+/* Título */
+.titulo {width:100%; background-color:#ff8000; padding:15px;}
+.titulo h1 {color:#fff; text-align:center; font-size:48px; text-transform:uppercase;}
+
+.modulo {width:100%; padding:50px 0;}
+.sobre {background-color:#ddd;}
+.subtitulo {font-size:32px; text-align:center; text-transform:uppercase; padding-bottom:30px;}
+
+/* Tabela */
+.tabela {width:100%; border-collapse:collapse;}
+.tabela thead {background-color:#333; color:#fff;}
+.tabela td {border:1px solid #333; padding:7px;}
+
+/* Lista de locais */
+.lista-locais ul {display:flex; justify-content:center;}
+.lista-locais ul li {list-style:none; display:inline-block; color:#fff; background:#ff8000; padding:7px 12px; margin:0 3px; border-radius:5px;}
+
+/* Rodapé */
+.rodape {width:100%; padding:50px 0; background-color:#333; background-image:url(../imagens/padrao-fundo-rodape.png); border-top:6px solid #ff8000; text-align:center; clear:both;}
+.rodape .logo {margin-bottom:30px;}
+.rodape .creditos {color:#fff;}
+
+/* Mapa */
+.mapa {width:100%;}
+.mapa img {float:left; position:relative; left:50%; transform:translateX(-50%);}
+
+/* Lista ordenada */
+.notaveis {float:left;}
+.notaveis ol {float:left; font-size:22px; position:relative; left:50%; transform:translateX(-50%);}
+
+/* Página de sugestão (Formulário) */
+.sugestao-texto {text-align:center;}
+.form-container {width:100%; margin:15px 0;}
+.form {width:100%; min-height:40px; font-size:17px; text-indent:10px;}
+.form-botao {padding:15px 30px; background-color:#ff8000; color:#fff; border:0; font-size:17px; cursor:pointer;}
+.form-botao:hover {background-color:#ff9b36;}
