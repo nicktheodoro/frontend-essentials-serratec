@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Avaliação</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Adicionar Usuário</h2>
+
+      <form>
+        <div class="primeira-linha">
+          <div class="form-nome">
+            <label for="nome">Nome</label><br />
+            <input type="text" id="nome" placeholder="Nome" />
+          </div>
+
+          <div class="form-email">
+            <label for="email">E-mail</label><br />
+            <input type="email" id="email" placeholder="Email" />
+          </div>
+        </div>
+
+        <div class="segunda-linha">
+          <div class="form-senha">
+            <label for="pass">Senha</label><br />
+            <input type="password" id="pass" placeholder="Senha" />
+          </div>
+
+          <div class="form-sexo">
+            <label for="sexo">Sexo</label><br />
+            <select id="sexo">
+              <option value="masculino">Masculino</option>
+              <option value="feminino">Feminino</option>
+            </select>
+          </div>
+
+          <div class="form-stack">
+            <label for="stack">Tipo de Dev</label><br />
+            <select id="stack">
+              <option value="frontend">FrontEnd</option>
+              <option value="backend">BackEnd</option>
+              <option value="fullstack">FullStack</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="terceira-linha">
+          <div class="form-area">
+            <label for="text-area">Observação</label><br />
+            <textarea id="text-area" style="resize: none"></textarea>
+          </div>
+        </div>
+
+        <div class="quarta-linha">
+          <button id="btn-salvar">Salvar</button>
+          <button id="btn-cancelar">Cancelar</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
